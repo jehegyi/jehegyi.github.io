@@ -11,7 +11,6 @@ body{
 	padding-right: 0px;
 	font-family: Georgia;
 	overflow: hidden;
-	min-width: 1400px;
 }
 .links ul{
 	width: 100%;
@@ -81,31 +80,28 @@ body{
 	font-family: Georgia;
 	font-size: 35px;
 	margin-top: 10%;
-	padding-left: 5.5%;
 	text-align: center;
-	min-width: 600px;
-
-
+	margin-left: 4%;
+	padding: 0;
 }
 .t1{
 	background: #f2f2f2;
 	text-align: center;
 	font-family: sans-serif;
-	min-width: 600px;
+	
 
 
 }
 .t2{
 	text-align: center;
 	font-family: sans-serif;
-		min-width: 600px;
 
 
 }
 .t3{
 	text-align: center;
 	font-family: sans-serif;
-		min-width: 600px;
+
 
 
 }
@@ -123,9 +119,7 @@ body{
 	height: 150px;
 	border: 5px #bb0000 outset;
 	list-style-type: none;
-	margin-left: 35%;
-
-
+	margin: auto;
 }
 .list a{
 	text-decoration: none;
@@ -144,8 +138,33 @@ body{
 	color: white;
  	background-image: linear-gradient(#f2f2f2, #bb0000);
  	float: bottom;
- 	min-width: 1400px;
 
 	}
+	@media screen and (max-width: 900px) {
+  .list {
+    width: 50%;
+
+  }
+}
+@media screen and (max-width: 100px) {
+  .t1 {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .t2 {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .t3 {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .bottom {
+    width: 50%;
+  }
+}
 
 }
