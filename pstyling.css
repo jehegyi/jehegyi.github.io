@@ -111,7 +111,7 @@ h5 {
 .content {
   background-color: white;
   padding: 10px;
-border: 5px #bb0000 outset;
+border: 5px #bb0000 groove;
 text-align: center;}
 .bottom{ /*bottom*/
 	display: inline-block;
