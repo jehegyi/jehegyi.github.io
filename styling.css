@@ -69,7 +69,7 @@ body{
 }
 .headshot {
 	border-radius: 50%;
-	border: 4px #bb0000 solid;
+	border: 4px #bb0000 ridge;
 	margin-top: 10px;
 	size: 75%;
 }
